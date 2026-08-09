@@ -1,6 +1,8 @@
+#!/usr/bin/env dart
+
 import 'dart:io'; // io -> stands for input and ouptut
 import 'dart:math';
-void main(){  
+void main(List<String> args){  
       int factorial(int n) {
         if (n < 0) throw ArgumentError('Factorial needs a non‑negative integer');
         int result = 1;  // 0!
